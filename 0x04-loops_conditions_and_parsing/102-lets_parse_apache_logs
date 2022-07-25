@@ -1,0 +1,5 @@
+rses apache log files
+
+
+
+awk '{ print $1, $9 }' apache-access.log
